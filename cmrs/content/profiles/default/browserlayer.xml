@@ -1,0 +1,4 @@
+<layers>
+    <layer name="CMRS content layer"
+           interface="cmrs.content.browser.interfaces.IThemeSpecific" />
+</layers>
