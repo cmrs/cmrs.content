@@ -3,6 +3,6 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="cmrs.content">
 
-
+  <include package=".portlets" />
 
 </configure>
