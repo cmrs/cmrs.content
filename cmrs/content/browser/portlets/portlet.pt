@@ -1,0 +1,14 @@
+<dl tal:attributes="class string:portlet portletStaticText portletGrey"
+    tal:define="portal_url context/portal_url;"
+    i18n:domain="cmrs.content">
+
+    <dd class="portletItem">
+        <div style="text-align: center;">
+            <a href="http://www.the-bac.org/" target="_blank">
+                <img width="189px" height="137px"
+                    tal:attributes="src string:$portal_url/++resource++cmrs.theme.images/bac_portlet_logo.gif" />
+            </a>
+        </div>
+    </dd>
+
+</dl>

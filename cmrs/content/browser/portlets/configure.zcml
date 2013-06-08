@@ -1,12 +1,15 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="cmrs.academic">
+    i18n_domain="cmrs.content">
 
-  <!-- Ensure Plone's portlets ZCML has already been processed;
-       without this, we may get a permission lookup error -->
   <include package="plone.app.portlets" />
 
-	<!-- -*- extra stuff goes here -*- -->
-
+    <plone:portlet
+        name="cmrs.content.browser.portlet.accreditation"
+        interface="cmrs.content.browser.portlets.interfaces.IAccreditationPortlet"
+        assignment=".portlet.Assignment"
+        renderer=".portlet.Renderer"
+        addview=".portlet.AddForm"
+        />
 </configure>
