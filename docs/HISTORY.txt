@@ -1,8 +1,10 @@
 Changelog
 =========
 
-1.1.0 Unreleased
+1.1.1 2019/06/09
 ----------------
+
+- Minor package maintenance
 
 1.0.0 2013/06/18
 ----------------
